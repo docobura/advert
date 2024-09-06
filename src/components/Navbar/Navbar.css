@@ -1,0 +1,23 @@
+/* Example styling */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-menu li:hover {
+    color: blue; /* Change text color to blue on hover */
+    background-color: transparent; /* Remove background color */
+    border-radius: 0; /* Remove border radius */
+    padding: 0; /* Remove padding */
+}
